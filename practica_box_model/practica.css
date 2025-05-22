@@ -22,6 +22,7 @@
  border-style: solid;
  border-color: black;
  border-width: 10px;
+ margin: 100px;
 }
 
 .box2{
@@ -29,9 +30,12 @@
  background-color: teal;
  width: 50%;
  height: 100px;
-  border-style: solid;
+ border-style: solid;
  border-color: black;
  border-width: 10px;
+ margin-top: 50px;
+ margin-left: 10px;
+ margin-bottom: 20px; 
 }
 /* Estilo de identificador
 se denota con #(numeral1)
