@@ -1,0 +1,63 @@
+/*selector universal*/
+/*se va a aplicara a TODAS las etiquetas*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card{
+    border: black 2px solid;
+    border-radius: 5px;
+    width: 400px;
+    height: auto;
+    background-color: plum;
+    /*Auto:
+    distribuir la dimensión al tamaño libre disponible*/
+    margin: 20px auto 20px auto;
+}
+
+/*selector para hijo directo*/
+
+.card > img{
+    display: block;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    /*border-radius
+    border-radius: 6px 15px 20px 50px*/
+    border-radius: 50%;
+    margin-top: 20px;
+    margin: 20px auto 40px auto;
+}
+
+/*selector para el contenedor*/
+/*espacio: descendiente*/
+.card   .contenedor{
+    margin: 20px;
+    display: block;
+    width: 300px;
+}
+
+.contenedor > h1{
+    display: block;
+    font-size: 24px;
+    text-align: center;
+}
+
+.contenedor > p {
+    display: block;
+    font-size: 16px;  
+}
+
+/*selector de hermano adyacente*/
+p + a{
+    display: block;
+    background-color: crimson;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    
+}
